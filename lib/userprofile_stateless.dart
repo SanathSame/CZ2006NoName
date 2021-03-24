@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
+              backgroundColor: Colors.lightGreen,
               title: const Text('User Profile'),
               leading: Icon(
                 Icons.menu,
