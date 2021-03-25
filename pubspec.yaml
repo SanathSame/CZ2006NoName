@@ -24,6 +24,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  http: ^0.13.1
+
+  logger: ^0.9.4
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -82,9 +86,9 @@ flutter:
     - family: Handlee
       fonts:
         - asset: fonts/Handlee-Regular.ttf
-    - family: FRoboto
+    - family: Roboto
       fonts:
-        - asset: fonts/FRoboto-Regular.ttf
+        - asset: fonts/Roboto-Regular.ttf
         - asset: fonts/Roboto-LightItalic.ttf
           style: italic
 
