@@ -86,9 +86,9 @@ flutter:
     - family: Handlee
       fonts:
         - asset: fonts/Handlee-Regular.ttf
-    - family: FRoboto
+    - family: Roboto
       fonts:
-        - asset: fonts/FRoboto-Regular.ttf
+        - asset: fonts/Roboto-Regular.ttf
         - asset: fonts/Roboto-LightItalic.ttf
           style: italic
 
