@@ -1,7 +1,8 @@
 import 'dart:convert';
-import 'package:software_engineering_connector/NetworkHandler.dart';
-import 'package:software_engineering_connector/NetworkHandlerInterface.dart';
-import 'package:software_engineering_connector/HealthDiseases.dart';
+import 'HealthDiseases.dart';
+import 'NetworkHandler.dart';
+import 'NetworkHandlerInterface.dart';
+import 'HealthDiseases.dart';
 
 class HealthDiseaseHandler extends NetworkHandlerInterface {
   //returns all the list of healthDisease

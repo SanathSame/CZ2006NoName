@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
-
+import 'HealthDiseases.dart';
 import 'package:http/http.dart' as http;
 import 'package:logger/logger.dart';
-import 'package:software_engineering_connector/HealthDiseases.dart';
+import 'HealthDiseases.dart';
 
 abstract class NetworkHandlerInterface {
   final String baseUrl = 'myhealth001.herokuapp.com';
