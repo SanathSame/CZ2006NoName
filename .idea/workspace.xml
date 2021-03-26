@@ -2,22 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c8036a-6084-4a8f-bf70-92bf2dbed049" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/UserProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UserProfile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/female-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/UI/ClinicsUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/UI/FilterUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/UI/InfectiousUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/UI/InputLocationUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/UI/LocationSettingsUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/UI/RiskInfoUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/UI/loginUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/DailyDietController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/DailyFoodController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/FilterController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/InfectiousController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/LocationController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/LoginController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/RiskController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/sugDietController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controllers/sugExerciseController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entity/Diet.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entity/FoodChoice.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entity/FoodChoiceList.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entity/FoodRecord.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entity/InfectiousDiseases.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entity/Map.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entity/sugActivities.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CZ2006NoName.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CZ2006NoName.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Diet_stateless.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/HealthDiseaseHandler.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/HealthDiseases.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/HealthProfileUI.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/NetworkHandler.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/NetworkHandlerInterface.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/UserProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/entity/UserProfile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/UserProfileHandler.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/expansionGymMap.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/expansionTile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UI/expansionTile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/userprofileUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UI/userprofileUI.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qFp6ppf6b6pGgpyF8T9mw4z9EF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -26,11 +82,28 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sanat\Documents\GitHub\CZ2006NoName\images" />
+      <recent name="C:\Users\sanat\Documents\GitHub\CZ2006NoName\lib\UI" />
+      <recent name="C:\Users\sanat\Documents\GitHub\CZ2006NoName\lib\controllers" />
+      <recent name="C:\Users\sanat\Documents\GitHub\CZ2006NoName\lib\entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.HealthProfileUI.dart">
+    <configuration name="HealthProfileUI.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/UI/HealthProfileUI.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/UI/main.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.HealthProfileUI.dart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,5 +117,27 @@
       <updated>1616685019143</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616738805971">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="378" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1616738805971" />
+    <state width="1282" height="174" key="GridCell.Tab.0.bottom" timestamp="1616737396308">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1282" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1616737396308" />
+    <state width="1282" height="174" key="GridCell.Tab.0.center" timestamp="1616737396308">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1282" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1616737396308" />
+    <state width="1282" height="174" key="GridCell.Tab.0.left" timestamp="1616737396307">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1282" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1616737396307" />
+    <state width="1282" height="174" key="GridCell.Tab.0.right" timestamp="1616737396308">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1282" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1616737396308" />
   </component>
 </project>
