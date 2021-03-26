@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'expansionTile.dart';
 import 'expansionGymMap.dart';
+import 'UserProfileHandler.dart';
 
 void main() => runApp(MyApp());
 
@@ -41,14 +42,15 @@ class _CalorieDisplayState extends State<CalorieDisplay> {
   int maintenanceCalorie = 2100;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: SafeArea(
+    return LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints viewportConstraints) {
+      return SafeArea(
+        child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
               Card(
                 color: Colors.lightGreen,
-                margin: EdgeInsets.symmetric(vertical: 0.0, horizontal: 30.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
@@ -171,7 +173,7 @@ class _CalorieDisplayState extends State<CalorieDisplay> {
                             ),
                           ),
                           Container(
-                              height: 100, //height of TabBarView
+                              height: 500, //height of TabBarView
                               decoration: BoxDecoration(
                                   border: Border(
                                       top: BorderSide(
@@ -252,11 +254,47 @@ class _CalorieDisplayState extends State<CalorieDisplay> {
                   ),
                 ],
               ),
+//              Future(),
             ],
           ),
         ),
+      );
+    });
+  }
+}
+
+class Future extends StatefulWidget {
+  @override
+  _FutureState createState() => _FutureState();
+}
+
+class _FutureState extends State<Future> {
+  UserProfileHandler u = new UserProfileHandler();
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: FutureBuilder<List>(
+        future: u.getListOfObjects('/userProfile'),
+        //initialData: [],
+        builder: (context, snapshot) {
+          return snapshot.hasData
+              ? ListView.builder(
+                  itemCount: snapshot.data.length,
+                  itemBuilder: (_, int position) {
+                    final item = snapshot.data[position];
+                    //get your item data here ...
+                    return Card(
+                      child: ListTile(
+                        title: Text("User ID: " + item.getUserID().toString()),
+                      ),
+                    );
+                  },
+                )
+              : Center(
+                  child: CircularProgressIndicator(),
+                );
+        },
       ),
     );
-    ;
   }
 }
