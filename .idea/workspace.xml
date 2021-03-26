@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7c8036a-6084-4a8f-bf70-92bf2dbed049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/female-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/UI/ClinicsUI.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/UI/FilterUI.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/UI/InfectiousUI.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/UI/InputLocationUI.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/UI/LocationSettingsUI.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/UI/RiskInfoUI.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/UI/loginUI.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/DailyDietController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/DailyFoodController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/FilterController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/InfectiousController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/LocationController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/LoginController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/RiskController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/sugDietController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controllers/sugExerciseController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/entity/Diet.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/entity/FoodChoice.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/entity/FoodChoiceList.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/entity/FoodRecord.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/entity/InfectiousDiseases.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/entity/Map.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/entity/sugActivities.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CZ2006NoName.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CZ2006NoName.iml" afterDir="false" />
+    <list default="true" id="f7c8036a-6084-4a8f-bf70-92bf2dbed049" name="Default Changelist" comment="Made code structure in MVC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Diet_stateless.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/HealthDiseaseHandler.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/HealthDiseases.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/HealthProfileUI.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/NetworkHandler.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/NetworkHandlerInterface.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/UserProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/entity/UserProfile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/UserProfileHandler.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/expansionGymMap.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/expansionTile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UI/expansionTile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/userprofileUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UI/userprofileUI.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loginUI.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +72,29 @@
       <option name="presentableId" value="Default" />
       <updated>1616685019143</updated>
     </task>
+    <task id="LOCAL-00001" summary="Made code structure in MVC">
+      <created>1616739893058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616739893059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made code structure in MVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made code structure in MVC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="378" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616738805971">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="378" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1616738805971" />
+    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1616740031757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1616740031757" />
     <state width="1282" height="174" key="GridCell.Tab.0.bottom" timestamp="1616737396308">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -139,5 +111,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1282" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1616737396308" />
+    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1616739965487">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1616739965487" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1616739912133">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1616739912133" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616740367523">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1616740367523" />
   </component>
 </project>
