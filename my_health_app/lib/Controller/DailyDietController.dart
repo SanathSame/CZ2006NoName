@@ -1,16 +1,10 @@
 import 'dart:convert';
 
-import '../Entity/HealthDiseases.dart';
+import '../entity/HealthDiseases.dart';
 import 'NetworkController.dart';
 
-class HealthDiseaseHandler extends NetworkController {
-  //returns all the list of healthDisease
-
-  //either implement in network handler or here.
-
-  //implements the abstract parse of information
-  //returns a list of healthDisease
-
+//still wrong
+class DailyDietController extends NetworkController {
   @override
   List<HealthDisease> parseObjectFormat(String responseBody) {
     // TODO: implement parseObjectFormat

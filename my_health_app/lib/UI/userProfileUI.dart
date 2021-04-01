@@ -16,6 +16,8 @@ class UserProfileUI extends StatelessWidget {
       Navigator.pop(context);
     }
 
+    Size size = MediaQuery.of(context).size;
+
     return MaterialApp(
         theme: ThemeData(
           primaryColor: PrimaryColor,
@@ -45,53 +47,56 @@ class UserProfileUI extends StatelessWidget {
               ],
             ),
             body: SafeArea(
-                child: Column(children: <Widget>[
-              Container(
-                margin: const EdgeInsets.all(6.0),
-                decoration: BoxDecoration(
-                    color: Colors.green,
-                    borderRadius: BorderRadius.all(Radius.circular(30))),
-                height: MediaQuery.of(context).size.height / 4,
-                child: Row(
-                  children: <Widget>[
-                    Image(
-                      image: AssetImage('images/female-avatar.jpg'),
-                      height: 110.0,
-                      width: 110.0,
-                    ),
-                    SizedBox(width: 70.0),
-                    Text(nameHolder,
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 20.0)),
-                  ],
-                ),
-              ),
-              SizedBox(height: 50.0),
-              Container(
+                child: SingleChildScrollView(
+              child: Column(children: <Widget>[
+                Container(
                   margin: const EdgeInsets.all(6.0),
-                  height: MediaQuery.of(context).size.height / 2,
-                  child: Column(children: <Widget>[
-                    Text('INFORMATION'),
-                    SizedBox(height: 10.0),
-                    Text('Name:  ${name}'),
-                    SizedBox(height: 10.0),
-                    Text('Age: ${age}'),
-                    SizedBox(height: 10.0),
-                    Text('Gender: ${gender}'),
-                    SizedBox(height: 10.0),
-                    Text('Weight: ${weight} kg'),
-                    SizedBox(height: 10.0),
-                    Text('Height: ${height} cm'),
-                    SizedBox(height: 10.0),
-                    Text('Waist Measurement: ${waist} cm'),
-                    // ignore: deprecated_member_use
-                    RaisedButton(
-                        onPressed: () => goBack(context),
-                        color: Colors.lightBlue,
-                        textColor: Colors.white,
-                        child: Text('Go Back To Previous Screen')),
-                  ])),
-            ]))));
+                  decoration: BoxDecoration(
+                      color: Colors.green,
+                      borderRadius: BorderRadius.all(Radius.circular(30))),
+                  height: size.height / 4,
+                  width: size.width * 0.97,
+                  child: Row(
+                    children: <Widget>[
+                      Image(
+                        image: AssetImage('images/female-avatar.jpeg'),
+                        height: size.height * 0.1,
+                        width: size.width * 0.2,
+                      ),
+                      SizedBox(width: size.width * 0.1),
+                      Text(nameHolder,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 20.0)),
+                    ],
+                  ),
+                ),
+                SizedBox(height: 50.0),
+                Container(
+                    margin: const EdgeInsets.all(6.0),
+                    height: MediaQuery.of(context).size.height / 2,
+                    child: Column(children: <Widget>[
+                      Text('INFORMATION'),
+                      SizedBox(height: 10.0),
+                      Text('Name:  ${name}'),
+                      SizedBox(height: 10.0),
+                      Text('Age: ${age}'),
+                      SizedBox(height: 10.0),
+                      Text('Gender: ${gender}'),
+                      SizedBox(height: 10.0),
+                      Text('Weight: ${weight} kg'),
+                      SizedBox(height: 10.0),
+                      Text('Height: ${height} cm'),
+                      SizedBox(height: 10.0),
+                      Text('Waist Measurement: ${waist} cm'),
+                      // ignore: deprecated_member_use
+                      RaisedButton(
+                          onPressed: () => goBack(context),
+                          color: Colors.lightBlue,
+                          textColor: Colors.white,
+                          child: Text('Go Back To Previous Screen')),
+                    ])),
+              ]),
+            ))));
   }
 }

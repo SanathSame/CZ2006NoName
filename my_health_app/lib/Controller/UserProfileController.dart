@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'NetworkController.dart';
 import '../Entity/UserProfile.dart';
 
-class UserProfileHandler extends NetworkHandlerInterface {
+class UserProfileHandler extends NetworkController {
   @override
   List<UserProfile> parseObjectFormat(String responseBody) {
     // TODO: implement parseObjectFormat
