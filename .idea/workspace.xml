@@ -20,30 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5897f139-04ea-4e6f-a203-8199ffee8082" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_health_app/images/female-avatar.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/DailyDietController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/DailyFoodController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/FilterController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/InfectiousController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/LocationController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/LoginController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/RiskController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/SuggestedDietController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/SuggestedExerciseController.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/DietComposition.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/DietPlan.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/FoodChoices.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/FoodRecord.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/InfectiousDisease.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/SuggestedExercise.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/ClinicsUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/DailyDietUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/FilterUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/GymUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/InfectiousUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/InputLocationUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/LocationSettingsUI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_health_app/lib/UI/RiskInfoUI.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Controller/HealthProfileController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/HealthProfileController.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Controller/NetworkController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/NetworkController.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Controller/UserProfileController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/UserProfileController.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Entity/UserProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/UserProfile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/UI/userProfileUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/UI/userProfileUI.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
