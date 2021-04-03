@@ -31,7 +31,12 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class CalorieDisplay extends StatelessWidget {
+class CalorieDisplay extends StatefulWidget {
+  @override
+  _CalorieDisplayState createState() => _CalorieDisplayState();
+}
+
+class _CalorieDisplayState extends State<CalorieDisplay> {
   int intakeCalorie = 1800;
   int maintenanceCalorie = 2100;
   @override
@@ -252,5 +257,6 @@ class CalorieDisplay extends StatelessWidget {
         ),
       ),
     );
+    ;
   }
 }
