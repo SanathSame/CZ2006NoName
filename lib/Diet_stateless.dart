@@ -40,6 +40,7 @@ class CalorieDisplay extends StatefulWidget {
 class _CalorieDisplayState extends State<CalorieDisplay> {
   int intakeCalorie = 1800;
   int maintenanceCalorie = 2100;
+  UserProfileHandler u = new UserProfileHandler();
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
@@ -219,11 +220,30 @@ class _CalorieDisplayState extends State<CalorieDisplay> {
                 ),
               ),
               Container(
-                height: 100,
-                child: Center(
-                  child: Text('Display Exericse',
-                      style:
-                          TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                height: 300,
+                width: 200,
+                child: FutureBuilder(
+                  future: u.getListOfObjects('/userProfile'),
+                  initialData: [],
+                  builder: (context, snapshot) {
+                    return snapshot.hasData
+                        ? ListView.builder(
+                            itemCount: snapshot.data.length,
+                            itemBuilder: (_, int position) {
+                              final item = snapshot.data[position];
+                              //get your item data here ...
+                              return Card(
+                                child: ListTile(
+                                  title: Text(
+                                      "User ID: " + item.getBmi().toString()),
+                                ),
+                              );
+                            },
+                          )
+                        : Center(
+                            child: CircularProgressIndicator(),
+                          );
+                  },
                 ),
               ),
               Column(
