@@ -3,7 +3,7 @@ import 'dart:convert';
 import '../entity/HealthDiseases.dart';
 import 'NetworkController.dart';
 
-class HealthDiseaseHandler extends NetworkHandlerInterface {
+class HealthDiseaseHandler extends NetworkController {
   //returns all the list of healthDisease
 
   //either implement in network handler or here.

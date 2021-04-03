@@ -1,10 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
-
 import 'package:http/http.dart' as http;
 import 'package:logger/logger.dart';
 
-abstract class NetworkHandlerInterface {
+abstract class NetworkController {
   final String baseUrl = 'myhealth001.herokuapp.com';
   var log = Logger();
 
