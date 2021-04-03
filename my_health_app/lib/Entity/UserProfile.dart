@@ -42,4 +42,12 @@ class UserProfile {
     //height is in meters
     return (weight / (height / 100 * height / 100));
   }
+
+  int getUserID() {
+    return id;
+  }
+
+  String getUsername() {
+    return name;
+  }
 }

@@ -5,7 +5,7 @@ import '/UI/PageOne.dart';
 import '/UI/PageTwo.dart';
 import '/UI/HealthProfileUI.dart';
 import '/UI/UserProfileUI.dart';
-import '/UI/LoginUI.dart';
+import '/UI/InfectiousUI.dart';
 import '/UI/DailyDietUI.dart';
 
 void main() {
@@ -37,7 +37,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   UserProfileUI user_profile;
-  LoginUI login;
+  InfectiousUI infectious_page;
   DailyDietUI daily_diet;
   HealthProfileUI health_profile;
 
@@ -50,9 +50,9 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     user_profile = UserProfileUI(nameHolder: "Aks");
     health_profile = HealthProfileUI();
-    login = LoginUI();
+    infectious_page = InfectiousUI();
     daily_diet = DailyDietUI();
-    pages = [health_profile, daily_diet, login, user_profile];
+    pages = [health_profile, daily_diet, infectious_page, user_profile];
     titles = [
       'Health Profile',
       'Daily Diet',

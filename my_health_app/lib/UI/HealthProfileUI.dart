@@ -3,16 +3,32 @@ import '../Controller/HealthProfileController.dart';
 import '../Controller/UserProfileController.dart';
 import '../components/expansionTile.dart';
 
-void main() {
-  runApp(UserProfile());
-}
-
-class HealthProfileUI extends StatefulWidget {
+class HealthProfileUI extends StatelessWidget {
   @override
-  _HealthProfileUIState createState() => _HealthProfileUIState();
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        children: <Widget>[
+          Container(
+            child: UserProfile(),
+            height: 500.0,
+          ),
+          Container(
+            child: HealthDiseases(),
+            height: 500.0,
+          ),
+        ],
+      ),
+    );
+  }
 }
 
-class _HealthProfileUIState extends State<HealthProfileUI> {
+class HealthDiseases extends StatefulWidget {
+  @override
+  _HealthDiseasesState createState() => _HealthDiseasesState();
+}
+
+class _HealthDiseasesState extends State<HealthDiseases> {
   HealthDiseaseHandler h = new HealthDiseaseHandler();
 
   @override
@@ -60,34 +76,28 @@ class _UserProfileState extends State<UserProfile> {
   //Future<dynamic> user =UserProfileHandler().getObject('/userProfile/:604fd4812630973608ce2e35');
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Single user'),
-        ),
-        body: FutureBuilder(
-          future: u.getObject('/userProfile/:604fd4812630973608ce2e35'),
-          //initialData: [],
-          builder: (context, snapshot) {
-            return snapshot.hasData
-                ? ListView.builder(
-                    itemCount: snapshot.data.length,
-                    itemBuilder: (_, int position) {
-                      final item = snapshot.data[position];
-                      //get your item data here ...
-                      return Card(
-                        child: ListTile(
-                          title:
-                              Text("User ID: " + item.getUserID().toString()),
-                        ),
-                      );
-                    },
-                  )
-                : Center(
-                    child: CircularProgressIndicator(),
-                  );
-          },
-        ),
+    return Scaffold(
+      body: FutureBuilder(
+        future: u.getListOfObjects('/userProfile'),
+        //initialData: [],
+        builder: (context, snapshot) {
+          return snapshot.hasData
+              ? ListView.builder(
+                  itemCount: snapshot.data.length,
+                  itemBuilder: (_, int position) {
+                    final item = snapshot.data[position];
+                    //get your item data here ...
+                    return Card(
+                      child: ListTile(
+                        title: Text("Username: " + item.getUsername()),
+                      ),
+                    );
+                  },
+                )
+              : Center(
+                  child: CircularProgressIndicator(),
+                );
+        },
       ),
     );
   }

@@ -20,20 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5897f139-04ea-4e6f-a203-8199ffee8082" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_health_app/images/female-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_health_app/images/male-avatar.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/images/female-avatar.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/images/female-avatar.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Controller/UserProfileController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Controller/UserProfileController.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Entity/HealthDiseases.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/HealthDiseases.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/UI/DailyDietUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/UI/DailyDietUI.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/UI/GymUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/UI/GymUI.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Entity/InfectiousDisease.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/InfectiousDisease.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_health_app/lib/Entity/UserProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/Entity/UserProfile.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_health_app/lib/UI/HealthProfileUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/UI/HealthProfileUI.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/UI/loginUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/UI/loginUI.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/UI/userProfileUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/UI/userProfileUI.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/lib/components/expansionTile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/components/expansionTile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_health_app/lib/UI/InfectiousUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/UI/InfectiousUI.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_health_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_health_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_health_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,22 +114,22 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="459" y="243" key="#com.intellij.ide.util.TreeFileChooserDialog/0.25.1440.875@0.25.1440.875" timestamp="1616948619594" />
-    <state width="1041" height="147" key="GridCell.Tab.0.bottom" timestamp="1617441410900">
+    <state width="1041" height="147" key="GridCell.Tab.0.bottom" timestamp="1617445857006">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1041" height="147" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1617441410900" />
-    <state width="1041" height="147" key="GridCell.Tab.0.center" timestamp="1617441410899">
+    <state width="1041" height="147" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1617445857006" />
+    <state width="1041" height="147" key="GridCell.Tab.0.center" timestamp="1617445857006">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1041" height="147" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1617441410899" />
-    <state width="1041" height="147" key="GridCell.Tab.0.left" timestamp="1617441410898">
+    <state width="1041" height="147" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1617445857006" />
+    <state width="1041" height="147" key="GridCell.Tab.0.left" timestamp="1617445857006">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1041" height="147" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1617441410898" />
-    <state width="1041" height="147" key="GridCell.Tab.0.right" timestamp="1617441410899">
+    <state width="1041" height="147" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1617445857006" />
+    <state width="1041" height="147" key="GridCell.Tab.0.right" timestamp="1617445857006">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1041" height="147" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1617441410899" />
+    <state width="1041" height="147" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1617445857006" />
     <state x="612" y="99" width="615" height="735" key="find.popup" timestamp="1616950418446">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

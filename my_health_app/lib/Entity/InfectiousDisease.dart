@@ -15,4 +15,8 @@ class InfectiousDisease {
       measures: json['measure'] as List<dynamic>,
     );
   }
+
+  String getDiseaseName() {
+    return diseaseName;
+  }
 }
