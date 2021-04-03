@@ -1,140 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5554b86b-adb4-4a7e-9333-084503efb1d1" name="Default Changelist" comment="">
+    <list default="true" id="5554b86b-adb4-4a7e-9333-084503efb1d1" name="Default Changelist" comment="&quot;Changes Made?&quot;">
       <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/SuggestedExerciseController.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/DietComposition.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/DietPlan.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/FoodChoices.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/InfectiousDisease.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/MapPoints.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/SuggestedExercise.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/foorRecord.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CZ2006NoName.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CZ2006NoName.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/.dart_tool/version" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/5.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/.last_build_id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/fonts/FjallaOne-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/fonts/Handlee-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/libs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/generated/source/buildConfig/debug/com/example/health_app/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/generated/source/buildConfig/debug/com/example/health_app/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/libs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/flutter/debug/libs.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/build/app/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/DailyDietController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/DailyDietController.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/DailyFoodController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/DailyFoodController.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/FilterController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/FilterController.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/HealthProfileController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/HealthProfileController.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/InfectiousController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/InfectiousController.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/NetworkController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/NetworkController.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/UserProfileController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/UserProfileController.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/sugDietController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/sugDietController.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/entity/FoodRecord.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/FoodRecord.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/entity/InfectiousDiseases.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/controllers/InfectiousMapController.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/entity/Map.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/Clusters.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/lib/entity/UserProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/lib/entity/UserProfile.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CZ2006NoName/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2006NoName/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/health_app/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/health_app_android.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/FjallaOne-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Handlee-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Diet_stateless.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/HealthDiseaseHandler.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/HealthDiseases.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/HealthProfileUI.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/NetworkHandler.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/NetworkHandlerInterface.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/UserProfile.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/UserProfileHandler.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/expansionGymMap.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/expansionTile.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/loginUI.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/userprofileUI.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CZ2006NoName" />
@@ -150,7 +76,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CZ2006NoName/lib/entity" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -167,7 +94,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\ASUS\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -179,11 +106,17 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="Added" />
+    <MESSAGE value="&quot;Changes Made?&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Changes Made?&quot;" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616994202105">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616994815519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994202105" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994815519" />
     <state x="2449" y="219" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1616994093085">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -192,5 +125,54 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2412" y="147" key="#main.dart/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1616994094402" />
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1616994689888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994689888" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1617166635884">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994563916" />
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617166635884" />
+    <state width="1491" height="253" key="GridCell.Tab.0.bottom" timestamp="1616995444827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616995444827" />
+    <state width="1491" height="253" key="GridCell.Tab.0.center" timestamp="1616995444827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="253" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616995444827" />
+    <state width="1491" height="253" key="GridCell.Tab.0.left" timestamp="1616995444827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="253" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616995444827" />
+    <state width="1491" height="253" key="GridCell.Tab.0.right" timestamp="1616995444827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="253" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616995444827" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616994979775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994979775" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616994859258">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994859258" />
+    <state x="513" y="284" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616994588601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="284" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994588601" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617443025417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617443025417" />
+    <state x="599" y="203" key="svn.repositoryBrowser" timestamp="1616994576034">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="203" key="svn.repositoryBrowser/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994576034" />
+    <state x="562" y="186" key="svn4idea.import.options" timestamp="1616994570725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="186" key="svn4idea.import.options/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616994570725" />
   </component>
 </project>
