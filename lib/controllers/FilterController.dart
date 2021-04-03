@@ -8,5 +8,7 @@ class FilterController {
   }
 
   //filter will return points that are filtered by user
-  void filter(int distance, int midpoints, int location) {}
+  void filter(int date, int midpoints, int location, int distance) {
+    print('hi');
+  }
 }

@@ -6,7 +6,7 @@ class InfectiousMapController {
   //LoadFilteredMap()
   void loadFilteredMap() {
     getInput();
-    //getFilteredCases(disease, date) //since we have fixed distance, and user location
+    //getFilteredCases(disease, date, locationbyinput) //since we have fixed distance, and user location
     //get today's map
     getClusterMidPoint();
     //filter(distance,midpoints, location)
