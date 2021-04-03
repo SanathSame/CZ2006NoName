@@ -17,33 +17,34 @@ class _HealthProfileUIState extends State<HealthProfileUI> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('List of diseases'),
-        ),
-        body: FutureBuilder<List>(
-          future: h.getListOfObjects('/healthDisease'),
-          initialData: [],
-          builder: (context, snapshot) {
-            return snapshot.hasData
-                ? ListView.builder(
-                    itemCount: snapshot.data.length,
-                    itemBuilder: (_, int position) {
-                      final item = snapshot.data[position];
-                      //get your item data here ...
-                      return Card(
-                        child: ListTile(
-                          title: Text("Disease Name: " + item.getDiseaseName()),
-                        ),
-                      );
-                    },
-                  )
-                : Center(
-                    child: CircularProgressIndicator(),
-                  );
-          },
-        ),
+    return Scaffold(
+      body: FutureBuilder<List>(
+        future: h.getListOfObjects('/healthDisease'),
+        initialData: [],
+        builder: (context, snapshot) {
+          return snapshot.hasData
+              ? ListView.builder(
+                  itemCount: snapshot.data.length,
+                  itemBuilder: (_, int position) {
+                    final item = snapshot.data[position];
+                    //get your item data here ...
+                    return Card(
+                      child: ExpansionTile(
+                        title: Text("Disease Name: " + item.getDiseaseName()),
+                        initiallyExpanded: false,
+                        maintainState: false,
+                        children: <Widget>[
+                          Text("Disease type: " + item.getDiseaseType()),
+                          Text("Recommended diet: " + item.getRecommendedDiet())
+                        ],
+                      ),
+                    );
+                  },
+                )
+              : Center(
+                  child: CircularProgressIndicator(),
+                );
+        },
       ),
     );
   }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Expansiontile extends StatelessWidget {
+class expansionTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

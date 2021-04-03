@@ -5,6 +5,8 @@ import '/UI/PageOne.dart';
 import '/UI/PageTwo.dart';
 import '/UI/HealthProfileUI.dart';
 import '/UI/UserProfileUI.dart';
+import '/UI/LoginUI.dart';
+import '/UI/DailyDietUI.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,8 +19,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-          //primarySwatch: Colors.lightGreen[300],
-          ),
+        primaryColor: Colors.lightGreen,
+      ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -34,28 +36,60 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  UserProfileUI u1;
-  PageOne one;
-  PageTwo two;
-  HealthProfileUI h1;
+  UserProfileUI user_profile;
+  LoginUI login;
+  DailyDietUI daily_diet;
+  HealthProfileUI health_profile;
+
   List<Widget> pages;
+  List<String> titles;
   Widget currentPage;
   int currentTab = 0;
 
   @override
   void initState() {
-    u1 = UserProfileUI(nameHolder: "Aks");
-    h1 = HealthProfileUI();
-    one = PageOne();
-    two = PageTwo();
-    pages = [h1, one, two, u1];
-    currentPage = one;
+    user_profile = UserProfileUI(nameHolder: "Aks");
+    health_profile = HealthProfileUI();
+    login = LoginUI();
+    daily_diet = DailyDietUI();
+    pages = [health_profile, daily_diet, login, user_profile];
+    titles = [
+      'Health Profile',
+      'Daily Diet',
+      'Infectious Diseases',
+      'User Profile'
+    ];
+    currentPage = health_profile;
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(titles[currentTab]),
+        leading: Icon(
+          Icons.arrow_back_ios_rounded,
+        ),
+        centerTitle: true,
+        actions: <Widget>[
+          PopupMenuButton(
+              itemBuilder: (BuildContext bc) => [
+                    PopupMenuItem(child: Text("Change password"), value: "/cp"),
+                    PopupMenuItem(
+                        child: Text("Notification management"),
+                        value: "/notif"),
+                    PopupMenuItem(child: Text("Log Out"), value: "/log-out"),
+                  ],
+              onSelected: (String route) {
+                if (route == "/cp") {}
+                if (route == "/notif") {}
+                if (route == "/log-out") {}
+                // Note You must create respective pages for navigation
+                Navigator.pushNamed(context, route);
+              })
+        ],
+      ),
       body: currentPage,
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,

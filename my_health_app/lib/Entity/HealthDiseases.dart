@@ -28,4 +28,12 @@ class HealthDisease {
   String getDiseaseName() {
     return diseaseName;
   }
+
+  String getDiseaseType() {
+    return diseaseType;
+  }
+
+  String getRecommendedDiet() {
+    return recommendedDiet;
+  }
 }
