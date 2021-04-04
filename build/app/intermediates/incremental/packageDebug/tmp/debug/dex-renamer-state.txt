@@ -1,0 +1,4 @@
+#Sun Apr 04 03:06:10 SGT 2021
+base.0=C\:\\Users\\ASUS\\Desktop\\CZ2006NoName\\CZ2006NoName\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
